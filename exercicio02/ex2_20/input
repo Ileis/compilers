@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+programa feito para servir de entrada ao main.c
+todos os comentarios em output devem ser
+convertidos para uppercase
+*/
+
+
+int main()
+{
+	return EXIT_SUCCESS;
+}
+
+/*
+fim do programa
+*/
