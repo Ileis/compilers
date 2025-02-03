@@ -1,27 +1,10 @@
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include "../file_to_string/file_to_string.h"
 
 #define TRUE 1
 #define FALSE 0
-
-char* file_to_string(char *filename)
-{
-    FILE *archive = NULL;
-    archive = fopen(filename, "r");
-
-    fseek(archive, 0, SEEK_END);
-    long archive_size = ftell(archive);
-    char *str = malloc(sizeof(char) * archive_size + 1);
-    fseek(archive, 0, SEEK_SET);
-
-    fread(str, sizeof(char), archive_size, archive);
-    str[archive_size] = '\0';
-
-    fclose(archive);
-
-    return str;
-}
 
 int main(int argc, char **argv)
 {

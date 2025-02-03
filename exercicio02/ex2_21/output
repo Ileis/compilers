@@ -1,0 +1,14 @@
+#include <cstdlib>
+
+/*
+IF
+RETURN
+INT
+FLOAT
+aaa
+*/
+
+int main()
+{
+    return EXIT_SUCCESS;
+}
