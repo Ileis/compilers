@@ -42,7 +42,9 @@ int get_current_word(char *str)
 
     int size;
     for(size = 0; str[size] != ' ' && str[size] != '\0' && str[size] != '\n'; size++)
+    {
         cur_word[size] = str[size];
+    }
 
     cur_word[size] = '\0';
 

@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+TESTE TESTE TESTE
+AAAAA IF RETURN
+*/
+
+int main()
+{
+    printf("HELLO, WORLD!");
+    return EXIT_SUCCESS;
+}
