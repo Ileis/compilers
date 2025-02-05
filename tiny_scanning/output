@@ -1,0 +1,5 @@
+<read-token><x-token><;-token><if-token><0-token><<-token><x-token><then-token>
+<fact-token><:=-token><1-token><;-token><repeat-token><fact-token>
+<:=-token><fact-token><*-token><x-token><;-token><x-token><:=-token><x-token>
+<--token><1-token><;-token><until-token><x-token><=-token><0-token><;-token>
+<write-token><fact-token><;-token><end-token><-token>
